@@ -10,4 +10,6 @@ console.log(k)
 let c=`My name is ${name}`;
 console.log(c)
 console.log(name[0]) // acessing elements of string
-console.log(name.toLocaleLowerCase())  // To lower case all the string
+console.log(name.toLowerCase())  // To lower case whole the string
+console.log(b.toUpperCase());    // To Upper case whole the string
+console.log(b.indexOf("y"))  // To print the index of an element in a string
