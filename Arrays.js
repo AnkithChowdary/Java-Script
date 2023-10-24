@@ -1,4 +1,4 @@
-const a=["ankith","sam","karan"];
+const a=['ankith','sam','karan'];
 console.log(a);
 console.log(a[0]);
 console.log(a.length);             // Gives the array length
