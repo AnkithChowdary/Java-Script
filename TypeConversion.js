@@ -8,3 +8,4 @@ let a1='4';
 let b1=a1+5;    //plus operator concats the string
 console.log(b1);
 
+
