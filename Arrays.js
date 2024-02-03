@@ -11,3 +11,9 @@ k.unshift('ankith');
 const popped=k.push();         //Removes last element
 console.log(popped);
 console.log(k);
+console.log(k.indexOf(54));
+console.log(k.indexOf('ankith'));   //returns index
+                                  // It is not presnt returns -1
+
+
+console.log(k.includes(ankith)); //Returns false 
