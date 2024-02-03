@@ -17,3 +17,5 @@ console.log(k.indexOf('ankith'));   //returns index
 
 
 console.log(k.includes(ankith)); //Returns false 
+
+console.log(k.includes('ankith'));
