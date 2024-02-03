@@ -8,4 +8,5 @@ console.log(an);
 const k=[a,'chowdary',1900-25];
 k.push(54);                    //Adds to the end
 k.unshift('ankith');
+k.push();         //Removes last element
 console.log(k);
