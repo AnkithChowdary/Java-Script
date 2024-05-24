@@ -18,7 +18,8 @@ console.log(k.indexOf(54));
 console.log(k.indexOf('ankith'));   //returns index
                                   // It is not presnt returns -1
 
-
+k.shift();
+console.log(k);//removes the first element
 console.log(k.includes(ankith)); //Returns false 
 
 console.log(k.includes('ankith'));
