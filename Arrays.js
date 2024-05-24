@@ -1,4 +1,7 @@
+//literal method
 const a=['ankith','sam','karan'];
+// using new keyword
+const b=new Array('ankith','sam','karan');
 console.log(a);
 console.log(a[0]);
 console.log(a.length);             // Gives the array length
