@@ -1,13 +1,18 @@
 const ankithDetails={
 Name:'Ankith',
-Age:Infinity,
+Year:2005,
 PhoneNum:8019836715,
-Friends:['Bhomraj','David','Karan']
-
-}
+Friends:['Bhomraj','David','Karan'],
+ ageCal:function (){
+    return 2024-this.Year;
+ }
+};
 
 //We can store to single entities
-const {Name:YoName,Age:A,PhoneNum:Num,Friends:bestFriends}=ankithDetails;
+const {Name:YoName,
+  Age:A,
+  PhoneNum:Num,
+  Friends:bestFriends}=ankithDetails;
 console.log(YoName);
 console.log(bestFriends);
 // Giving default value to array
